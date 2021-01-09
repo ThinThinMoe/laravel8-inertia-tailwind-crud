@@ -3740,6 +3740,121 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {}
 });
@@ -49433,7 +49548,7 @@ var render = function() {
     _vm._v(" "),
     _c(
       "div",
-      { staticClass: "body-container container mx-auto my-8 px-6 flex" },
+      { staticClass: "body-container container mx-auto my-8 px-8 flex" },
       [
         _c("div", { staticClass: "flex-explore-container w-3/4 mr-8" }, [
           _c(
@@ -50093,9 +50208,183 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "sidebar w-1/4" }, [
-          _vm._v(
-            "\n              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe laudantium perferendis ut odio impedit officia animi iusto praesentium vel, expedita illum consectetur, quis modi! Voluptas quae nam tempora eum iusto.\n          "
-          )
+          _c("div", { staticClass: "about" }, [
+            _c("h4", { staticClass: "font-semibold text-base" }, [
+              _vm._v("About")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "text-base mt-4" }, [
+              _vm._v("A collection of web pages built in Tailwind CSS v1.x")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "flex items-center mt-4 space-x-2" }, [
+              _c(
+                "svg",
+                {
+                  staticClass: "fill-current w-4",
+                  attrs: { viewBox: "0 0 16 16" }
+                },
+                [
+                  _c("path", {
+                    attrs: {
+                      "fill-rule": "evenodd",
+                      d:
+                        "M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"
+                    }
+                  })
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "font-semibold hover:underline text-blue-600",
+                  attrs: { href: "#" }
+                },
+                [_vm._v("tailwind-v1-examples.netlify.com")]
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(7),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "flex items-center mt-4 space-x-2 group" },
+              [
+                _c(
+                  "svg",
+                  {
+                    staticClass:
+                      "w-4 fill-current text-gray-600 group-hover:text-blue-600",
+                    attrs: { viewBox: "0 0 16 16" }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        "fill-rule": "evenodd",
+                        d:
+                          "M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"
+                      }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c("a", {
+                  staticClass: "hover:text-blue-600",
+                  attrs: { href: "#" }
+                }),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "group-hover:text-blue-600",
+                    attrs: { href: "#" }
+                  },
+                  [_vm._v("Readme")]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "flex items-center mt-4 space-x-2 group" },
+              [
+                _c(
+                  "svg",
+                  {
+                    staticClass:
+                      "w-4 fill-current text-gray-600 group-hover:text-blue-600",
+                    attrs: { viewBox: "0 0 16 16" }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        "fill-rule": "evenodd",
+                        d:
+                          "M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.869.23l-1.288.737A.25.25 0 013.984 3H1.75a.75.75 0 000 1.5h.428L.066 9.192a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.514 3.514 0 00.686.45A4.492 4.492 0 003 11c.88 0 1.556-.22 2.023-.454a3.515 3.515 0 00.686-.45l.045-.04.016-.015.006-.006.002-.002.001-.002L5.25 9.5l.53.53a.75.75 0 00.154-.838L3.822 4.5h.162c.305 0 .604-.08.869-.23l1.289-.737a.25.25 0 01.124-.033h.984V13h-2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-2.5V3.5h.984a.25.25 0 01.124.033l1.29.736c.264.152.563.231.868.231h.162l-2.112 4.692a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.517 3.517 0 00.686.45A4.492 4.492 0 0013 11c.88 0 1.556-.22 2.023-.454a3.512 3.512 0 00.686-.45l.045-.04.01-.01.006-.005.006-.006.002-.002.001-.002-.529-.531.53.53a.75.75 0 00.154-.838L13.823 4.5h.427a.75.75 0 000-1.5h-2.234a.25.25 0 01-.124-.033l-1.29-.736A1.75 1.75 0 009.735 2H8.75V.75zM1.695 9.227c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327l-1.305 2.9zm10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327l-1.305 2.9z"
+                      }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "group-hover:text-blue-600",
+                    attrs: { href: "#" }
+                  },
+                  [_vm._v("MIT License")]
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "releases border-t mt-6 pt-6" }, [
+            _vm._m(8),
+            _vm._v(" "),
+            _c("div", { staticClass: "group mt-4 mb-4" }, [
+              _c("div", { staticClass: "flex items-center space-x-2" }, [
+                _c(
+                  "svg",
+                  {
+                    staticClass:
+                      "w-4 fill-current text-green-600 group-hover:text-blue-600",
+                    attrs: { viewBox: "0 0 16 16" }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        "fill-rule": "evenodd",
+                        d:
+                          "M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"
+                      }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  { staticClass: "font-semibold group-hover:text-blue-600" },
+                  [_vm._v("v2.0.1")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "rounded-full text-green-600 border border-green-600 px-2"
+                  },
+                  [_vm._v("Latest")]
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "group-hover:text-blue-600 ml-6 text-xs",
+                  attrs: { href: "#" }
+                },
+                [_vm._v("on Nov 19, 2020")]
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "hover:underline text-blue-600 text-xs",
+                attrs: { href: "#" }
+              },
+              [_vm._v("+ 144 releases")]
+            )
+          ]),
+          _vm._v(" "),
+          _vm._m(9),
+          _vm._v(" "),
+          _vm._m(10),
+          _vm._v(" "),
+          _vm._m(11),
+          _vm._v(" "),
+          _vm._m(12)
         ])
       ]
     ),
@@ -50107,7 +50396,7 @@ var render = function() {
           "footer-container container mx-auto text-xs mt-8 border-t border-gray-300 py-10 flex items-center justify-between"
       },
       [
-        _vm._m(7),
+        _vm._m(13),
         _vm._v(" "),
         _c("div", { staticClass: "mx-16" }, [
           _c("a", { attrs: { href: "#" } }, [
@@ -50131,7 +50420,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _vm._m(8)
+        _vm._m(14)
       ]
     )
   ])
@@ -50307,6 +50596,432 @@ var staticRenderFns = [
         ])
       ]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "tags text-xs font-semibold flex items-center flex-wrap mt-2"
+      },
+      [
+        _c(
+          "a",
+          {
+            staticClass:
+              "bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2",
+            attrs: { href: "#" }
+          },
+          [_vm._v("tailwindcss")]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass:
+              "bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2",
+            attrs: { href: "#" }
+          },
+          [_vm._v("css")]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass:
+              "bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2",
+            attrs: { href: "#" }
+          },
+          [_vm._v("css-framework")]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass:
+              "bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2",
+            attrs: { href: "#" }
+          },
+          [_vm._v("postcss")]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass:
+              "bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2",
+            attrs: { href: "#" }
+          },
+          [_vm._v("functional-css")]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass:
+              "bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2",
+            attrs: { href: "#" }
+          },
+          [_vm._v("utility-classes")]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass:
+              "bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-full px-2 py-1 mt-2 mr-2",
+            attrs: { href: "#" }
+          },
+          [_vm._v("responsive")]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flex items-center space-x-2" }, [
+      _c(
+        "a",
+        {
+          staticClass: "text-base font-semibold hover:text-blue-600",
+          attrs: { href: "#" }
+        },
+        [_vm._v("Releases")]
+      ),
+      _vm._v(" "),
+      _c(
+        "span",
+        {
+          staticClass:
+            "rounded-full text-xs px-2 bg-gray-200 ml-2 font-semibold"
+        },
+        [_vm._v("145")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "packages border-t mt-6 pt-6" }, [
+      _c(
+        "a",
+        {
+          staticClass: "text-base font-semibold hover:text-blue-600",
+          attrs: { href: "#" }
+        },
+        [_vm._v("Packages")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "text-xs mt-4" }, [
+        _vm._v("No packages published")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "used-by border-t mt-6 pt-6" }, [
+      _c("h4", { staticClass: "flex items-center space-x-2 " }, [
+        _c(
+          "a",
+          {
+            staticClass: "text-base font-semibold hover:text-blue-600",
+            attrs: { href: "#" }
+          },
+          [_vm._v("Used by")]
+        ),
+        _vm._v(" "),
+        _c(
+          "span",
+          {
+            staticClass:
+              "rounded-full text-xs px-2 bg-gray-200 ml-2 font-semibold"
+          },
+          [_vm._v("116k")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mt-4" }, [
+        _c(
+          "a",
+          { staticClass: "flex items-center -space-x-2", attrs: { href: "#" } },
+          [
+            _c("img", {
+              staticClass: "w-8 border-2 border-white rounded-full",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 border-2 border-white rounded-full",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 border-2 border-white rounded-full",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 border-2 border-white rounded-full",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 border-2 border-white rounded-full",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 border-2 border-white rounded-full",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 border-2 border-white rounded-full",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 border-2 border-white rounded-full",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c(
+              "span",
+              {
+                staticClass:
+                  "pl-4 text-xs font-semibold text-blue-600 hover:underline"
+              },
+              [_vm._v("+ 115,616")]
+            )
+          ]
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "contributors border-t mt-6 pt-6" }, [
+      _c("h4", { staticClass: "flex items-center space-x-2 " }, [
+        _c(
+          "a",
+          {
+            staticClass: "text-base font-semibold hover:text-blue-600",
+            attrs: { href: "#" }
+          },
+          [_vm._v("Contributors")]
+        ),
+        _vm._v(" "),
+        _c(
+          "span",
+          {
+            staticClass:
+              "rounded-full text-xs px-2 bg-gray-200 ml-2 font-semibold"
+          },
+          [_vm._v("152")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mt-2" }, [
+        _c(
+          "a",
+          {
+            staticClass: "flex items-center flex-warp mt-2",
+            attrs: { href: "#" }
+          },
+          [
+            _c("img", {
+              staticClass: "w-8 rounded-full mr-2",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 rounded-full mr-2",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 rounded-full mr-2",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 rounded-full mr-2",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 rounded-full mr-2",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 rounded-full mr-2",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 rounded-full mr-2",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "flex items-center flex-wrap mt-2",
+            attrs: { href: "#" }
+          },
+          [
+            _c("img", {
+              staticClass: "w-8 rounded-full mr-2",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "w-8 rounded-full mr-2",
+              attrs: {
+                src:
+                  "https://avatars2.githubusercontent.com/u/55120122?s=60&v=4",
+                alt: "avatar"
+              }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "mt-4" }, [
+          _c(
+            "a",
+            {
+              staticClass:
+                "text-xs font-semibold text-blue-600 hover:underline",
+              attrs: { href: "#" }
+            },
+            [_vm._v("+ 141 contributors")]
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "languages border-t mt-6 pt-6" }, [
+      _c("h4", { staticClass: "text-base font-semibold" }, [
+        _vm._v("Languages")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mt-4 flex" }, [
+        _c("div", {
+          staticClass: "w-11/12 h-2 rounded-md rounded-r-none bg-purple-900"
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass: "w-1/12 h-2 rounded-md rounded-l-none bg-yellow-300"
+        })
+      ]),
+      _vm._v(" "),
+      _c("ul", { staticClass: "mt-2 flex space-x-8 items-center text-xs" }, [
+        _c("li", { staticClass: "flex items-center group" }, [
+          _c("span", { staticClass: "w-2 h-2 rounded-full bg-purple-900" }),
+          _vm._v(" "),
+          _c("span", { staticClass: "ml-3 group-hover:text-blue-600" }, [
+            _c("span", { staticClass: "font-semibold" }, [_vm._v("CSS")]),
+            _vm._v(" "),
+            _c("span", [_vm._v("96.8%")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "flex items-center group" }, [
+          _c("span", {
+            staticClass: "ml-4 w-2 h-2 rounded-full bg-yellow-300"
+          }),
+          _vm._v(" "),
+          _c("span", { staticClass: "ml-3 group-hover:text-blue-600" }, [
+            _c("span", { staticClass: "font-semibold " }, [
+              _vm._v("Javascript")
+            ]),
+            _vm._v(" "),
+            _c("span", [_vm._v("3.2%")])
+          ])
+        ])
+      ])
+    ])
   },
   function() {
     var _vm = this
