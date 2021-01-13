@@ -26,4 +26,8 @@ Route::get('/github', function () {
     return Inertia\Inertia::render('Github');
 })->name('github');
 
+Route::get('/issue', function () {
+    return Inertia\Inertia::render('issue');
+})->name('issue');
+
 Route::resource('posts', PostController::class);

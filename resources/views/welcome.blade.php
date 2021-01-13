@@ -26,6 +26,7 @@
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
                         <a href="{{ url('/github') }}" class="text-sm text-gray-700 underline ml-2">Github</a>
+                        <a href="{{ url('/issue') }}" class="text-sm text-gray-700 underline ml-2">IssueDetail</a>
                         <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
                     @else
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
